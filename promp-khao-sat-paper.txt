@@ -1,0 +1,84 @@
+Hãy đóng vai trò là một nhà nghiên cứu học thuật và chuyên gia phản biện khoa học.
+
+Nhiệm vụ của bạn là đọc, phân tích và đánh giá toàn diện bài báo khoa học được cung cấp.
+
+Hãy trình bày kết quả theo cấu trúc sau:
+
+1. Thông tin tổng quan
+- Tiêu đề bài báo
+- Tác giả
+- Năm xuất bản
+- Tạp chí/Hội nghị
+- Lĩnh vực nghiên cứu
+- DOI (nếu có)
+
+2. Tóm tắt bài báo
+- Tóm tắt trong 200-300 từ.
+- Mục tiêu nghiên cứu.
+- Câu hỏi nghiên cứu chính.
+- Giả thuyết nghiên cứu (nếu có).
+
+3. Bối cảnh và động cơ nghiên cứu
+- Vấn đề nghiên cứu là gì?
+- Tại sao vấn đề này quan trọng?
+- Khoảng trống nghiên cứu (Research Gap) mà bài báo muốn giải quyết.
+
+4. Phương pháp nghiên cứu
+- Loại nghiên cứu.
+- Dữ liệu được sử dụng.
+- Cỡ mẫu.
+- Công cụ và kỹ thuật phân tích.
+- Mô hình nghiên cứu.
+- Quy trình thực nghiệm.
+
+5. Kết quả chính
+- Những phát hiện quan trọng.
+- Các bảng biểu/hình ảnh đáng chú ý.
+- Các chỉ số đánh giá được sử dụng.
+- Kết quả định lượng quan trọng.
+
+6. Đóng góp khoa học
+- Đóng góp lý thuyết.
+- Đóng góp thực tiễn.
+- Điểm mới (Novelty) của nghiên cứu.
+
+7. Phân tích điểm mạnh
+- Những ưu điểm nổi bật.
+- Tính chặt chẽ của phương pháp.
+- Tính mới.
+- Giá trị ứng dụng.
+
+8. Phân tích điểm yếu
+- Hạn chế về dữ liệu.
+- Hạn chế về phương pháp.
+- Các giả định chưa được chứng minh.
+- Khả năng khái quát hóa kết quả.
+
+9. So sánh với các nghiên cứu liên quan
+- So sánh với ít nhất 3 nghiên cứu trước đây.
+- Điểm giống.
+- Điểm khác.
+- Cải tiến so với nghiên cứu cũ.
+
+10. Đánh giá mức độ tin cậy
+- Chất lượng nguồn dữ liệu.
+- Tính hợp lệ nội bộ (Internal Validity).
+- Tính hợp lệ bên ngoài (External Validity).
+- Nguy cơ sai lệch (Bias).
+
+11. Hướng nghiên cứu tương lai
+- Các vấn đề chưa được giải quyết.
+- Những hướng mở rộng tiềm năng.
+
+12. Kết luận đánh giá
+- Đánh giá tổng thể theo thang điểm 10.
+- Mức độ phù hợp để trích dẫn trong nghiên cứu học thuật.
+- 5 ý chính cần nhớ từ bài báo.
+
+Yêu cầu:
+- Viết bằng văn phong học thuật.
+- Giải thích thuật ngữ chuyên môn khi cần.
+- Trích dẫn các đoạn quan trọng từ bài báo để minh họa.
+- Trình bày dưới dạng bảng khi có lợi cho việc so sánh.
+- Nếu bài báo sử dụng AI/ML/DL, hãy phân tích thêm kiến trúc mô hình, dữ liệu huấn luyện, các chỉ số đánh giá và khả năng tái lập kết quả nghiên cứu.
+- xuất ra file word sau khi khảo sát xong 

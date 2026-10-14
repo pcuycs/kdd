@@ -1,0 +1,123 @@
+                ┌─────────────────────┐
+                │   Dữ liệu huấn luyện │
+                └──────────┬──────────┘
+                           │
+                           ▼
+        ┌──────────────────────────────────┐
+        │  Feature Set (Ctrain)            │
+        │                                  │
+        │  Diện tích      ✓                │
+        │  Phòng ngủ      ✓                │
+        │  Vị trí         ✓                │
+        │  Tuổi nhà       ✓                │
+        │  Khoảng cách    ✓                │
+        └──────────┬───────────────────────┘
+                   │
+                   ▼
+          ┌─────────────────┐
+          │  Huấn luyện AI  │
+          └────────┬────────┘
+                   │
+                   ▼
+        ┌─────────────────────────┐
+        │      Mô hình đã học      │
+        └────────┬────────────────┘
+                 │
+                 │ Đánh giá bằng TabFSBench
+                 ▼
+
+┌─────────────────────────────────────────────────────────┐
+│                  4 KỊCH BẢN FEATURE SHIFT             │
+└─────────────────────────────────────────────────────────┘
+
+1. SINGLE SHIFT
+──────────────────────────────────────
+Ctest:
+✓ Diện tích
+✓ Phòng ngủ
+✓ Vị trí
+✓ Tuổi nhà
+✗ Khoảng cách
+
+=> Mất 1 đặc trưng
+
+
+2. MOST-RELEVANT SHIFT
+──────────────────────────────────────
+Giả sử "Vị trí" quan trọng nhất
+
+Ctest:
+✓ Diện tích
+✓ Phòng ngủ
+✗ Vị trí
+✓ Tuổi nhà
+✓ Khoảng cách
+
+=> Mất đặc trưng quan trọng nhất
+
+
+3. LEAST-RELEVANT SHIFT
+──────────────────────────────────────
+Giả sử "Tuổi nhà" ít quan trọng nhất
+
+Ctest:
+✓ Diện tích
+✓ Phòng ngủ
+✓ Vị trí
+✗ Tuổi nhà
+✓ Khoảng cách
+
+=> Mất đặc trưng ít quan trọng nhất
+
+
+4. RANDOM SHIFT
+──────────────────────────────────────
+Lần 1:
+✗ Diện tích
+
+Lần 2:
+✗ Phòng ngủ
+✗ Tuổi nhà
+
+Lần 3:
+✗ Vị trí
+
+=> Mất ngẫu nhiên
+
+
+Sau đó TabFSBench đo:
+
+                    ┌─────────────────┐
+                    │ Độ chính xác cũ │
+                    │     95%         │
+                    └────────┬────────┘
+                             │
+                             ▼
+                 Sau Feature Shift
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ Độ chính xác mới│
+                    │     78%         │
+                    └────────┬────────┘
+                             │
+                             ▼
+              Mức suy giảm = 95 - 78 = 17%
+			  
+Ý tưởng cốt lõi của TabFSBench
+
+                AI được huấn luyện
+                với các đặc trưng
+
+          A + B + C + D + E
+                    │
+                    ▼
+               Triển khai
+
+          A + B + D + E
+               (Mất C)
+
+                    │
+                    ▼
+      TabFSBench đo xem AI còn hoạt động
+            tốt đến mức nào?
