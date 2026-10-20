@@ -1,0 +1,29 @@
+
+
+Hãy tạo cho tôi một bộ slide thuyết trình khoảng 8–10 slide dạng power point về bài báo khoa học với chủ đề "Khảo sát Classification/Regression dưới Missing Values và Feature Shift" để trình bày trước lớp.
+
+Yêu cầu về nội dung & bố cục:
+
+Slide 1: Tên đề tài, tên tác giả bài báo, người trình bày.
+
+Slide 2: Đặt vấn đề & Động lực nghiên cứu (Problem & Motivation), Ai là người đưa ra chủ đề này? Năm nào?.
+
+Slide 3: Đóng góp chính của bài báo (Key Contributions).
+
+Slide 4-5: Phương pháp & Kiến trúc đề xuất (Methodology/System Architecture).
+
+Slide 6: Kết quả thực nghiệm & So sánh (Experiments & Results).
+
+Slide 7: liệt kê Các Sota hiện nay liên quan đến chủ đề, các điểm ngách cần cải tiến.
+
+Slide 7: Thảo luận, Hạn chế & Hướng phát triển (Limitations & Future Work).
+
+Slide 8: Kết luận & Q&A.
+
+Yêu cầu phong cách slide:
+
+Ngôn ngữ: Tiếng Việt.
+
+Trình bày chuẩn tư duy slide tư vấn/thuyết trình: cực kỳ ngắn gọn, dùng cụm từ/fragment, không viết thành đoạn văn dài.
+
+Thiết kế hiện đại, màu sắc trực quan, rõ ràng, dễ nhìn từ xa."

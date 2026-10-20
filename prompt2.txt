@@ -1,0 +1,18 @@
+"Tôi sắp có một buổi báo cáo thuyết trình trước lớp về bài báo khoa học này. Hãy đóng vai là một chuyên gia trong lĩnh vực AI/Machine Learning/Data Mining  giúp tôi phân tích, khảo sát bài báo theo các mục sau bằng tiếng Việt:
+
+1. Bối cảnh & Bài toán (Problem): Vấn đề bài báo đặt ra là gì? Tại sao nó quan trọng?
+2. Ai là người đưa ra vấn đề này? năm nào?
+
+3. Hạn chế của nghiên cứu trước (Motivation): Các phương pháp cũ gặp khó khăn gì?
+
+4. Đóng góp chính (Key Contributions): 3-4 điểm mới cốt lõi mà bài báo đề xuất.
+
+5. Phương pháp đề xuất (Methodology): Tóm tắt cách thức/kiến trúc/thuật toán hoạt động (ngắn gọn, dễ hiểu).
+
+6. Kết quả thực nghiệm (Results): Đạt được kết quả gì nổi bật? Kết quả này chứng minh điều gì?
+
+7. Hạn chế & Hướng phát triển (Limitations): Bài báo còn điểm yếu nào?
+
+8. Đánh giá cá nhân: Điểm hay nhất và điểm cần cải thiện của paper này.
+
+Hãy trình bày súc tích, cô đọng, sử dụng dạng gạch đầu dòng và nêu rõ các thuật ngữ chuyên ngành quan trọng."
