@@ -1,0 +1,24 @@
+credit_scoring_drift_exp/
+│
+├── data/
+│   ├── raw/                 # Chứa file cs-training.csv hoặc default_of_credit_card_clients.csv
+│   └── processed/           # Tập train, validation, test chuẩn
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py       # Tải và chia tập train/val/test ban đầu (stratified)
+│   ├── drift_simulator.py   # Tiêm Feature Drift, Missingness Shift, Ordinal Drift
+│   ├── imputation.py        # Các chiến lược gán dữ liệu khuyết (Median, KNN, Model-based)
+│   ├── models.py            # Khởi tạo 5 mô hình (LR, RF, XGBoost, LightGBM, MLP)
+│   ├── metrics.py           # Tính PSI, Wasserstein, AUC-ROC, PR-AUC, F1, Brier Score
+│   └── pipeline.py          # Quy trình chạy thực nghiệm tự động
+│
+├── notebooks/
+│   └── 01_exploratory_analysis.ipynb
+│
+├── results/
+│   ├── metrics_summary.csv  # Kết quả chỉ số qua từng mức drift
+│   └── plots/               # Biểu đồ suy giảm hiệu suất, PSI heatmap, Calibration curve
+│
+├── main.py                  # Entrypoint điều khiển toàn bộ dòng thực nghiệm
+└── requirements.txt

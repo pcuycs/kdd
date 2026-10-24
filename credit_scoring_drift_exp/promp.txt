@@ -1,0 +1,2 @@
+dựa vào file đính kèm hãy: lên Kế hoạch xây dựng mã nguồn thực nghiệm 
+(Dataset công khai như Give Me Some Credit hoặc Default of Credit Card Clients, thiết lập mô phỏng giả lập drift và missing data để kiểm chứng baseline và SOTA).
